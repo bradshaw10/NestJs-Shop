@@ -22,7 +22,7 @@ export class ProductsController {
 
     @Get()
     getAllProducts(){
-        
+        return this.productsService.getProducts()
     }
 
 }
