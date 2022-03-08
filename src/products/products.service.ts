@@ -17,7 +17,7 @@ export class ProductsService{
             description: description,
             price: price
         });  
-        this.products.push(newProduct);
+        newProduct.save()
         return prodID;
     }
 
